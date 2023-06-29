@@ -23,9 +23,6 @@ def delete_todo(position):
 
     todo_list = jsonify(todos)
     return todo_list  
-git remote add origin https://github.com/danilopgon/todo-list-api.git
-git branch -M main
-git push -u origin main
 
 # These two lines should always be at the end of your app.py file.
 if __name__ == '__main__':
